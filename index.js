@@ -1,5 +1,5 @@
 module.exports = {
-    projectName: 'Popcorn Time',
+    projectName: 'Popcorn Viet Nam',
     projectUrl: 'https://popcorntime.sh',
     projectTwitter: 'popcorntimetv',
     projectFacebook: 'PopcornTimedotSh',
@@ -20,7 +20,6 @@ module.exports = {
                    +'&apiURL='
                      + 'https://movies-v2.api-fetch.website/,'
                      + 'cloudflare+https://movies-v2.api-fetch.website,'
-//                     + 'cloudflare+http://xor.image.yt'
                   ]
          },
          tvshow: {
@@ -30,7 +29,6 @@ module.exports = {
                    +'&apiURL='
                      + 'https://tv-v2.api-fetch.website/,'
                      + 'cloudflare+https://tv-v2.api-fetch.website,'
-//                     + 'http://tv.ytspt.re/'
                   ]
          },
        anime: {
@@ -40,13 +38,7 @@ module.exports = {
                    +'&apiURL='
                      + 'https://anime.api-fetch.website/,'
                      + 'cloudflare+https://anime.api-fetch.website,'
-//                     + 'http://tv.ytspt.re/'
                   ]
-         },
-         indie: {
-             order: 4,
-             name: 'Indie',
-             uri: ['vodo']
          },
 
          subtitle: 'OpenSubtitles',
