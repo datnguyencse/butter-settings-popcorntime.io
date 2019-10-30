@@ -1,6 +1,6 @@
 module.exports = {
     projectName: 'Popcorn Viet Nam',
-    projectUrl: 'https://popcorntime.sh',
+    projectUrl: 'https://vn.popcorn-api.io',
     projectTwitter: 'popcorntimetv',
     projectFacebook: 'PopcornTimedotSh',
     projectGooglePlus: 'popcorntimeshplus',
@@ -8,18 +8,18 @@ module.exports = {
     projectForum: 'https://www.reddit.com/r/PopcornTime',
 
     statusUrl: 'http://status.popcorntime.sh',
-    changelogUrl: 'https://github.com/popcorn-official/popcorn-desktop/commits/master',
-    issuesUrl: 'https://github.com/popcorn-official/popcorn-desktop/issues',
-    sourceUrl: 'https://github.com/popcorn-official/popcorn-desktop/',
-    commitUrl: 'https://github.com/popcorn-official/popcorn-desktop/commit',
+    changelogUrl: 'https://github.com/datnguyencse/popcorn-desktop-vn/commits/master',
+    issuesUrl: 'https://github.com/datnguyencse/popcorn-desktop-vn/issues',
+    sourceUrl: 'https://github.com/datnguyencse/popcorn-desktop-vn/',
+    commitUrl: 'https://github.com/datnguyencse/popcorn-desktop-vn/commit',
      providers: {
          movie: {
              order: 1,
              name: 'Movies',
              uri: ['MovieApi?'
                    +'&apiURL='
-                     + 'https://movies-v2.api-fetch.website/,'
-                     + 'cloudflare+https://movies-v2.api-fetch.website,'
+                     + 'https://movies-v2.popcorn-api.io/,'
+                     + 'cloudflare+https://movies-v2.popcorn-api.io,'
                   ]
          },
          tvshow: {
@@ -27,8 +27,8 @@ module.exports = {
              name: 'Series',
              uri: ['TVApi?'
                    +'&apiURL='
-                     + 'https://tv-v2.api-fetch.website/,'
-                     + 'cloudflare+https://tv-v2.api-fetch.website,'
+                     + 'https://tv-v2.popcorn-api.io/,'
+                     + 'cloudflare+https://tv-v2.popcorn-api.io,'
                   ]
          },
        anime: {
@@ -36,8 +36,8 @@ module.exports = {
              name: 'Anime',
              uri: ['AnimeApi?'
                    +'&apiURL='
-                     + 'https://anime.api-fetch.website/,'
-                     + 'cloudflare+https://anime.api-fetch.website,'
+                     + 'https://anime-vi.popcorn-api.io/,'
+                     + 'cloudflare+https://anime-vi.popcorn-api.io,'
                   ]
          },
 
@@ -47,23 +47,20 @@ module.exports = {
          torrentCache: 'TorrentCache'         
      },
     updateEndpoint: {
-        url: 'https://popcorntime.sh/',
+        url: 'https://vn.popcorn-api.io/',
         index: 0,
         proxies: [{
-            url: 'https://popcorntime.sh/'
+            url: 'https://vn.popcorn-api.io/'
         }]
     },
     updateKey: '-----BEGIN PUBLIC KEY-----\n' +
-        'MIIBtjCCASsGByqGSM44BAEwggEeAoGBAPNM5SX+yR8MJNrX9uCQIiy0t3IsyNHs\n' +
-        'HWA180wDDd3S+DzQgIzDXBqlYVmcovclX+1wafshVDw3xFTJGuKuva7JS3yKnjds\n' +
-        'NXbvM9CrJ2Jngfd0yQPmSh41qmJXHHSwZfPZBxQnspKjbcC5qypM5DqX9oDSJm2l\n' +
-        'fM/weiUGnIf7AhUAgokTdF7G0USfpkUUOaBOmzx2RRkCgYAyy5WJDESLoU8vHbQc\n' +
-        'rAMnPZrImUwjFD6Pa3CxhkZrulsAOUb/gmc7B0K9I6p+UlJoAvVPXOBMVG/MYeBJ\n' +
-        '19/BH5UNeI1sGT5/Kg2k2rHVpuqzcvlS/qctIENgCNMo49l3LrkHbJPXKJ6bf+T2\n' +
-        '8lFWRP2kVlrx/cHdqSi6aHoGTAOBhAACgYBTNeXBHbWDOxzSJcD6q4UDGTnHaHHP\n' +
-        'JgeCrPkH6GBa9azUsZ+3MA98b46yhWO2QuRwmFQwPiME+Brim3tHlSuXbL1e5qKf\n' +
-        'GOm3OxA3zKXG4cjy6TyEKajYlT45Q+tgt1L1HuGAJjWFRSA0PP9ctC6nH+2N3HmW\n' +
-        'RTcms0CPio56gg==\n' +
+        'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuAHq1Uz/dLblqMdmJALW\n' +
+        'VgHuUukx3pLnhFUp6Tm2jMCG7SvXnSp748rnON8T4+7Sg1gHjwBfnpVnZbdpOcGs\n' +
+        'Sjj9R5sb6A9FFzz3l0z3dm3pBRQkRavSsAnWapR90Lssp+frfKwWuv30Kde40ZlJ\n' +
+        'f+cMElbEZz7IFo1eLQucr83+KY2ndfG7OgWTLMwiOVEZnZSICq3pWsqoVQWdJ1yf\n' +
+        'oKc2Ax99BK63JtI3m82WCgke+0gN8w9fLFi+wJL9ppBu24V3wq1ChfvOzI4cAI2q\n' +
+        'VVAWCi44xV0bzTPtUnPPIPgc7+8G1VWHp2JYVmSLSmtpiHFb2bJSrwMijACNVBUr\n' +
+        'AwIDAQAB\n' +
         '-----END PUBLIC KEY-----\n',
     httpApiUsername: 'popcorn',
     httpApiPassword: 'popcorn',
