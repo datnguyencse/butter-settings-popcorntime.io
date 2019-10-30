@@ -27,8 +27,8 @@ module.exports = {
              name: 'Series',
              uri: ['TVApi?'
                    +'&apiURL='
-                     + 'https://tv-v2.popcorn-api.io/,'
-                     + 'cloudflare+https://tv-v2.popcorn-api.io,'
+                     + 'https://tv-v2.api-fetch.website/,'
+                     + 'cloudflare+https://tv-v2.api-fetch.website,'
                   ]
          },
        anime: {
